@@ -16,7 +16,5 @@ func main() {
 	r.HandleFunc("/create", api.Create)
 	r.HandleFunc("/open", api.Open)
 	r.HandleFunc("/draw", api.Draw)
-	r.HandleFunc("/allData", api.AllData)
-
 	http.ListenAndServe(":8080", r)
 }

@@ -12,6 +12,7 @@ and spades (♠).
 
 #### Request
 `GET /create` - Creates an unshuffled deck with 52 cards
+
 `GET /create?cards=AS,KH&shuffle=true` - Creates an shuffled deck with 2 cards
 
 #### Response
@@ -80,8 +81,9 @@ it will list all cards by the order it was created.
 ```
 
 ## Testing
-`make test` - tests both the utilities and handlers
+`make test` - tests both the utilities, handlers and store
 `make test-utils` - tests utilities
+`make test-store` - tests in memory data store
 `make test-handlers` - tests all the handlers
 
 
