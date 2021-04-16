@@ -103,4 +103,4 @@ This will start the server at http://127.0.0.1/8080
 In the root directory run the command mentioned below to start the server
 `make build`
 
-This will output a build file `root` in the root folder.
+This will output a build file in the root folder.
