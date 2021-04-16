@@ -81,6 +81,9 @@ it will list all cards by the order it was created.
 ```
 
 ## Testing
+The test output pattern follows Given-when-then or Given-when-should pattern. More about it in here
+https://www.codeguru.com/cpp/sample_chapter/go-in-action-basic-unit-test.html
+
 `make test` - tests both the utilities, handlers and store
 `make test-utils` - tests utilities
 `make test-store` - tests in memory data store
