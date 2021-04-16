@@ -85,8 +85,11 @@ The test output pattern follows Given-when-then or Given-when-should pattern. Mo
 https://www.codeguru.com/cpp/sample_chapter/go-in-action-basic-unit-test.html
 
 `make test` - tests both the utilities, handlers and store
+
 `make test-utils` - tests utilities
+
 `make test-store` - tests in memory data store
+
 `make test-handlers` - tests all the handlers
 
 
