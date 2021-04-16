@@ -96,4 +96,11 @@ https://www.codeguru.com/cpp/sample_chapter/go-in-action-basic-unit-test.html
 ## Running Locally
 In the root directory run the command mentioned below to start the server
 `make run`
+
 This will start the server at http://127.0.0.1/8080
+
+## Making build
+In the root directory run the command mentioned below to start the server
+`make build`
+
+This will output a build file `deck` in the root folder.
